@@ -12,7 +12,7 @@ const dbConnect = async () => {
         console.log("Connected")
     } catch (error) {
         console.log(error);
-        console.log("Error");
+        console.log("Error!!!!!");
     }
 };
 
