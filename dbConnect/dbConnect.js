@@ -9,7 +9,7 @@ const dbConnect = async () => {
                 password: process.env.MONGO_PASS
             }
         })
-        console.log("Connected")
+        console.log("Connected!!!")
     } catch (error) {
         console.log(error);
         console.log("Error!!!!!");
