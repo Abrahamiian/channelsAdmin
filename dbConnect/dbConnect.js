@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const url = "mongodb://localhost:27017/shop?authSource=admin"
+const url = "mongodb+srv://abrahamyanabraham05:IMbnfRcfnF90sZb6@cluster0.xuusgo5.mongodb.net/"
 const dbConnect = async () => {
     try {
         const connect = await mongoose.connect(url, {
